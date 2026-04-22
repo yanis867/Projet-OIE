@@ -1,0 +1,8 @@
+reset;
+model diffusion.mod;
+data  diffusion.dat;
+option solver cplex;
+solve;
+display x0;
+display x;
+display obj;

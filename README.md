@@ -15,7 +15,8 @@ Contrairement aux approches déterministes classiques, ce projet modélise la di
   * `diffusion.dat` : Fichier de données contenant l'instance testée (graphe, scénarios stochastiques, budget).
   * `diffusion.run` : Script d'exécution paramétré pour utiliser le solveur CPLEX.
 * `Python/`
-  * `main.py` : Script Python utilisant PuLP / Amplpy pour modéliser et résoudre la même instance du problème.
+  * `influence_maximization.py` : Script Python utilisant PuLP / Amplpy pour modéliser le problème.
+  * `example_instance.py` : Script Python pour résoudre une instance du problème.
 * `Docs/`
   * `Rapport_OIE.pdf` : Le rapport final détaillant la modélisation mathématique, l'implémentation et l'analyse des résultats.
 
